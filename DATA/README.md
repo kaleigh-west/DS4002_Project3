@@ -1,1 +1,2 @@
-
+# How to Obtain the Raw Data Set 
+To obtain this data set, go to this link: https://data.mendeley.com/datasets/w4sw3s9f59/1 . From this link, click on "Download All 148 MB" to retrieve the data files, this will dowload a zip file. Then click on the folder to un-zip the file, which will allow for access to the training and testing folders, which will each contain subfolders labeled "glioma," "meningioma," "pituitary," or "nontumor" which contain .jpg images. 
