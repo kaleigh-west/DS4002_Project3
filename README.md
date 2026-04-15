@@ -20,7 +20,7 @@ Required Python Packages:
 ## Documentation
 ### Data Folder
 &emsp;README.md with instructions on how to download raw dataset\
-&emsp;Data appendix.pdf
+&emsp;Data_Appendix.pdf
 ### Output Folder
 EDA Folder\
 &emsp;distribution_combined.png\
