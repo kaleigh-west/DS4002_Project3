@@ -58,18 +58,18 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 ### Step 3: Download the Original Dataset
 
-The project uses the **Fake and Real News Dataset** from Kaggle:
+The project uses the **Brain Tumor Data** from Mendeley Data:
 
-https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+https://data.mendeley.com/datasets/w4sw3s9f59/1 
 
 After downloading, unzip the folder and place the following files into:
 
 `DATA/`
 
-Files required:
+Folders required:
 ```
-DATA/Fake.csv
-DATA/True.csv
+Training folder: contains meningioma, pituitary, glioma, and notumor folders
+Testing folder: contains meningioma, pituitary, glioma, and notumor folders
 ```
 
 ---
@@ -82,7 +82,7 @@ Run:
 python SCRIPTS/EDA.py
 ```
 
-This recreates the exploratory visualizations used in the report.
+This recreates the exploratory visualizations used in the report and data appendix.
 
 Pre-generated figures are also included in the `OUTPUT/` folder for reference.
 
@@ -103,18 +103,6 @@ This script will:
 - Create `DATA/headlines_clean.csv`
 - Train the TF-IDF Logistic Regression classifier
 - Output accuracy, precision, recall, F1 score, and confusion matrix
-
----
-
-### Step 6: Generate the Data Appendix Outputs
-
-Run:
-
-```
-python SCRIPTS/dataappendix.py
-```
-
-This script uses `DATA/headlines_clean.csv` to recreate the summary statistics and visualizations included in the Data Appendix.
 
 ---
 
