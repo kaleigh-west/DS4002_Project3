@@ -36,11 +36,11 @@ Model Folder\
 Download this repository as a ZIP file or clone it:
 
 ```
-git clone https://github.com/kaleigh-west/DS4002_Project1.git
-cd DS4002_Project1
+git clone https://github.com/kaleigh-west/DS4002_Project3.git
+cd DS4002_Project3
 ```
 
-All commands below must be run from the project root directory: `DS4002_Project2`
+All commands below must be run from the project root directory: `DS4002_Project3`
 
 ---
 
