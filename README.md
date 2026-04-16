@@ -23,8 +23,8 @@ Required Python Packages:
 &emsp;Data_Appendix.pdf
 ### Output Folder
 EDA Folder\
-&emsp;distribution_combined.png\
-&emsp;distributions_separate.png\
+&emsp;Distribution_of_Categories_separate.png\
+&emsp;Distribution_Tumor_Categories_combined.png\
 Model Folder\
 &emsp;confusion_matrix.png
 ### Scripts Folder
