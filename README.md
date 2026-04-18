@@ -26,7 +26,11 @@ EDA Folder\
 &emsp;Distribution_of_Categories_separate.png\
 &emsp;Distribution_Tumor_Categories_combined.png\
 Model Folder\
-&emsp;confusion_matrix.png
+&emsp;accuracy_epoch.png\
+&emsp;confusion_matrix.png\
+&emsp;loss_epoch.png\
+&emsp;metrics.png\
+&emsp;model.png
 ### Scripts Folder
 &emsp;EDA.py\
 &emsp;logistic_regression.py
