@@ -92,12 +92,12 @@ Pre-generated figures are also included in the `OUTPUT/` folder for reference.
 
 ---
 
-### Step 5: Train the Model and Create the Analysis Dataset
+### Step 5: Establish, run, and evaluate CNN model
 
 Run:
 
 ```
-python SCRIPTS/logistic_regression.py
+python SCRIPTS/cnn.py
 ```
 
 This script will:
