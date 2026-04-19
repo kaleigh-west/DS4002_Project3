@@ -14,9 +14,17 @@ Required Python Packages:
 - numpy
 - matplotlib
 - scikit-learn
+- sklearn.metrics
 - PIL
 - seaborn
 - jupyter
+- tensorflow
+- tensorflow.keras
+- tensorflow.keras.preprocessing.image
+- tensorflow.keras.models
+- tensorflow.keras.layers
+- tensorflow.keras.callbacks
+- tensorflow.keras.applications
 ## Documentation
 ### Data Folder
 &emsp;README.md with instructions on how to download raw dataset\
