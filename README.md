@@ -102,11 +102,13 @@ python SCRIPTS/cnn.py
 
 This script will:
 
-- Combine Fake.csv and True.csv
-- Clean the headline text
-- Create `DATA/headlines_clean.csv`
-- Train the TF-IDF Logistic Regression classifier
-- Output accuracy, precision, recall, F1 score, and confusion matrix
+- Augment training data
+- Reserve 20% of the training data for validation while training
+- Apply MobileNetV2 preprocessing
+- Plot training and validation loss across epochs
+- Evaluate final MobileNetV2 model on 
+- Output a classification report showing precision, recall, F1-score, and support for each diagnosis class in the test set
+- Output a confusion matrix as a heatmap plot
 
 ---
 
