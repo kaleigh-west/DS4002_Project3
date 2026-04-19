@@ -33,7 +33,7 @@ Model Folder\
 &emsp;model.png
 ### Scripts Folder
 &emsp;EDA.py\
-&emsp;logistic_regression.py
+&emsp;cnn.py
 ## Reproducibility
 ### Step 1: Download or Clone the Repository
 
