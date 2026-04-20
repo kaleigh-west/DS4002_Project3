@@ -125,3 +125,10 @@ This script will:
 
 All figures and outputs in the `OUTPUT/` folder are reproducible.  
 They will be regenerated automatically when the scripts above are executed.
+
+---
+
+### References
+[1] “Meningioma,” Brain Tumor Center, 2023. https://med.stanford.edu/brain-tumor/conditions/meningioma.html
+[2]“Pituitary Tumors,” www.hopkinsmedicine.org. https://www.hopkinsmedicine.org/health/conditions-and-diseases/pituitary-tumors
+[3] A. Ghaffar, “Brain Tumor Data,” data.mendeley.com, vol. 1, Jan. 2024, doi: https://doi.org/10.17632/w4sw3s9f59.1.
