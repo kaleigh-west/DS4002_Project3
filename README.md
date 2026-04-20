@@ -1,5 +1,5 @@
 # DS4002_Project3
-## This repository contains the dataset, EDA, and CNN model used to classify our brain tumor dataset. 
+## This repository contains the scripts, outputs, and documentation used to explore and classify a brain tumor MRI image dataset using exploratory data analysis and a MobileNetV2-based CNN model. 
 ## Software and Platform
 This project was developed and tested using the following  environment:
 
@@ -12,6 +12,7 @@ Developed Environment: Jupyter Notebook, Visual Studio Code
 Required Python Packages:
 - os
 - numpy
+- pandas
 - matplotlib
 - scikit-learn
 - sklearn.metrics
@@ -63,7 +64,7 @@ This project was developed using Python 3.11.
 Install dependencies:
 
 ```
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter tensorflow
+pip install pandas numpy matplotlib pillow tensorflow scikit-learn jupyter
 ```
 
 ---
@@ -114,7 +115,7 @@ This script will:
 - Reserve 20% of the training data for validation while training
 - Apply MobileNetV2 preprocessing
 - Plot training and validation loss across epochs
-- Evaluate final MobileNetV2 model on 
+- Evaluate final MobileNetV2 model on the test set
 - Output a classification report showing precision, recall, F1-score, and support for each diagnosis class in the test set
 - Output a confusion matrix as a heatmap plot
 
