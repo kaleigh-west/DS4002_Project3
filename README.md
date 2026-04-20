@@ -63,7 +63,7 @@ This project was developed using Python 3.11.
 Install dependencies:
 
 ```
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter tensorflow
 ```
 
 ---
